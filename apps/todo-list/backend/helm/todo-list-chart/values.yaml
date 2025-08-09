@@ -13,7 +13,8 @@ backend:
   cors_allowed_origins: http://localhost:3000
 
 database:
-  name: tododb
-  user: todouser
+  host: "todo-db-service"
+  name: "todolist" 
+  user: "root" 
   password: "todo1234"
   rootPassword: "root1234"
