@@ -44,7 +44,7 @@ jobs:
         run: ./gradlew build -x test
         working-directory: ./apps/todo-list/backend
 
-      # 6. Docker Hub에 로그인
+      # 6. Docker Hub에 로그인 
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
