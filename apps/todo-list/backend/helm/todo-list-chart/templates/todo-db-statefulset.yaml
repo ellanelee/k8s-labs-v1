@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app.kubernetes.io/name: {{ include "todo-list-chart.name" . }}-db
       app.kubernetes.io/instance: {{ .Release.Name }}
-  serviceName: "todo-db-service"
+  serviceName: "todo-headless-db-service" 
   replicas: 1
   template:
     metadata:

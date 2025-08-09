@@ -7,5 +7,6 @@ spec:
   ports:
   - port: 3306
   selector:
-    {{- include "todo-list-chart.database.selectorLabels" . | nindent 4 }}
+    app.kubernetes.io/name: {{ include "todo-list-chart.name" . }}-db
+    app.kubernetes.io/instance: {{ .Release.Name }}
   clusterIP: None
