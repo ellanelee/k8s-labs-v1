@@ -72,7 +72,7 @@ jobs:
       - name: Print image tag
         run: echo "Image tagged with:${{ secrets.DOCKERHUB_USERNAME }}/k8s-labs-todo-backend:${{ github.sha }}"
 
-      # 9. 매니페스트 저장소 체크아웃  
+      # 9. 매니페스트 저장소 체크아웃(비번추가)
       - name: Checkout manifests repository
         uses: actions/checkout@v4
         with:
