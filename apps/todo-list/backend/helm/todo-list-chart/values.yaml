@@ -1,8 +1,8 @@
 backend:
   replicaCount: 2
   image:
-    repository: captainyun/k8s-labs-todo-backend
-    tag: v1.0
+    repository: ellane/k8s-labs-todo-backend
+    tag: 1.0
   service:
     type: NodePort
     port: 8080
