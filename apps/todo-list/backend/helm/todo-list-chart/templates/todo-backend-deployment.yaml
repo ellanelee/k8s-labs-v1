@@ -18,7 +18,7 @@ spec:
         - name: todo-backend
           image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag }}"
           command: ["/bin/sh", "-c"] # 연장
-          args: ["sleep 3600"]  #연장 
+          args: ["sleep 60"]  #연장 
           ports:
             - containerPort: 8080
           env:

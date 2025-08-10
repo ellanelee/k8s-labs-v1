@@ -16,5 +16,5 @@ database:
   host: "todo-list-todo-list-chart-db-statefulset-0.todo-headless-db-service"
   name: "tododb" 
   user: "root" 
-  password: "todo1234"
+  password: "root1234"
   rootPassword: "root1234"
