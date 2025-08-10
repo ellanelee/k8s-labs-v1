@@ -14,7 +14,7 @@ backend:
 
 database:
   host: "todo-db-service"
-  name: "todolist" 
+  name: "tododb" 
   user: "root" 
   password: "todo1234"
   rootPassword: "root1234"
